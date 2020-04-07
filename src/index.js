@@ -14,7 +14,5 @@ client.once('ready', () => {
 
 client.on('message', commandHandler);
 
-//for security using .env public facing
-//however unable to conntect to Discord client during development
-//use key string during dev 
-client.login(process.env.BOT_TOKEN);
+
+client.login(<BOT TOKEN>);
